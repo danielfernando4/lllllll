@@ -1,0 +1,36 @@
+import React from "react";
+import { TableBlock } from "../components/runtime/TableBlock";
+
+const Ordendeproduccion: React.FC = () => {
+  return (
+    <div id="page-ordendeproduccion-3">
+    <div id="i6vjyg" style={{"height": "100vh", "fontFamily": "Arial, sans-serif", "display": "flex", "--chart-color-palette": "default"}}>
+      <nav id="i5cbh7" style={{"width": "250px", "padding": "20px", "display": "flex", "overflowY": "auto", "background": "linear-gradient(135deg, #4b3c82 0%, #5a3d91 100%)", "color": "white", "--chart-color-palette": "default", "flexDirection": "column"}}>
+        <h2 id="ikjz59" style={{"fontSize": "24px", "fontWeight": "bold", "marginTop": "0", "marginBottom": "30px", "--chart-color-palette": "default"}}>{"BESSER"}</h2>
+        <div id="ivadb5" style={{"display": "flex", "--chart-color-palette": "default", "flexDirection": "column", "flex": "1"}}>
+          <a id="i861um" style={{"padding": "10px 15px", "textDecoration": "none", "marginBottom": "5px", "display": "block", "background": "transparent", "color": "white", "borderRadius": "4px", "--chart-color-palette": "default"}} href="/cliente">{"Cliente"}</a>
+          <a id="iqibsk" style={{"padding": "10px 15px", "textDecoration": "none", "marginBottom": "5px", "display": "block", "background": "transparent", "color": "white", "borderRadius": "4px", "--chart-color-palette": "default"}} href="/proveedor">{"Proveedor"}</a>
+          <a id="ig3kci" style={{"padding": "10px 15px", "textDecoration": "none", "marginBottom": "5px", "display": "block", "background": "transparent", "color": "white", "borderRadius": "4px", "--chart-color-palette": "default"}} href="/producto">{"Producto"}</a>
+          <a id="ie3z6g" style={{"padding": "10px 15px", "textDecoration": "none", "marginBottom": "5px", "display": "block", "background": "rgba(255,255,255,0.2)", "color": "white", "borderRadius": "4px", "--chart-color-palette": "default"}} href="/ordendeproduccion">{"OrdenDeProduccion"}</a>
+          <a id="inj2lw" style={{"padding": "10px 15px", "textDecoration": "none", "marginBottom": "5px", "display": "block", "background": "transparent", "color": "white", "borderRadius": "4px", "--chart-color-palette": "default"}} href="/itemordendeproduccion">{"ItemOrdenDeProduccion"}</a>
+          <a id="imq9mk" style={{"padding": "10px 15px", "textDecoration": "none", "marginBottom": "5px", "display": "block", "background": "transparent", "color": "white", "borderRadius": "4px", "--chart-color-palette": "default"}} href="/ordendecompra">{"OrdenDeCompra"}</a>
+          <a id="ij0qks" style={{"padding": "10px 15px", "textDecoration": "none", "marginBottom": "5px", "display": "block", "background": "transparent", "color": "white", "borderRadius": "4px", "--chart-color-palette": "default"}} href="/itemordendecompra">{"ItemOrdenDeCompra"}</a>
+          <a id="i9cr3f" style={{"padding": "10px 15px", "textDecoration": "none", "marginBottom": "5px", "display": "block", "background": "transparent", "color": "white", "borderRadius": "4px", "--chart-color-palette": "default"}} href="/factura">{"Factura"}</a>
+          <a id="iel0a2" style={{"padding": "10px 15px", "textDecoration": "none", "marginBottom": "5px", "display": "block", "background": "transparent", "color": "white", "borderRadius": "4px", "--chart-color-palette": "default"}} href="/itemfactura">{"ItemFactura"}</a>
+          <a id="i4vdbu" style={{"padding": "10px 15px", "textDecoration": "none", "marginBottom": "5px", "display": "block", "background": "transparent", "color": "white", "borderRadius": "4px", "--chart-color-palette": "default"}} href="/cuentacontable">{"CuentaContable"}</a>
+          <a id="ihjyyh" style={{"padding": "10px 15px", "textDecoration": "none", "marginBottom": "5px", "display": "block", "background": "transparent", "color": "white", "borderRadius": "4px", "--chart-color-palette": "default"}} href="/asientocontable">{"AsientoContable"}</a>
+          <a id="ipewrx" style={{"padding": "10px 15px", "textDecoration": "none", "marginBottom": "5px", "display": "block", "background": "transparent", "color": "white", "borderRadius": "4px", "--chart-color-palette": "default"}} href="/movimientocontable">{"MovimientoContable"}</a>
+          <a id="iyvj16" style={{"padding": "10px 15px", "textDecoration": "none", "marginBottom": "5px", "display": "block", "background": "transparent", "color": "white", "borderRadius": "4px", "--chart-color-palette": "default"}} href="/trabajador">{"Trabajador"}</a>
+        </div>
+        <p id="iho5vp" style={{"fontSize": "11px", "paddingTop": "20px", "marginTop": "auto", "textAlign": "center", "opacity": "0.8", "borderTop": "1px solid rgba(255,255,255,0.2)", "--chart-color-palette": "default"}}>{"© 2026 BESSER. All rights reserved."}</p>
+      </nav>
+      <main id="imv8fh" style={{"padding": "40px", "overflowY": "auto", "background": "#f5f5f5", "--chart-color-palette": "default", "flex": "1"}}>
+        <h1 id="i6nbkx" style={{"fontSize": "32px", "marginTop": "0", "marginBottom": "10px", "color": "#333", "--chart-color-palette": "default"}}>{"OrdenDeProduccion"}</h1>
+        <p id="iw07dw" style={{"marginBottom": "30px", "color": "#666", "--chart-color-palette": "default"}}>{"Manage OrdenDeProduccion data"}</p>
+        <TableBlock id="table-ordendeproduccion-3" styles={{"width": "100%", "minHeight": "400px", "--chart-color-palette": "default"}} title="OrdenDeProduccion List" options={{"showHeader": true, "stripedRows": false, "showPagination": true, "rowsPerPage": 5, "actionButtons": true, "columns": [{"label": "IdOrdenProd", "column_type": "field", "field": "idOrdenProd", "type": "str", "required": true}, {"label": "FechaCreacion", "column_type": "field", "field": "fechaCreacion", "type": "date", "required": true}, {"label": "FechaEntrega", "column_type": "field", "field": "fechaEntrega", "type": "date", "required": true}, {"label": "Estado", "column_type": "field", "field": "estado", "type": "enum", "options": ["Cancelada", "EnProceso", "Finalizada", "Pendiente"], "required": true}, {"label": "OrdenItems", "column_type": "lookup", "path": "ordenItems", "entity": "ItemOrdenDeProduccion", "field": "idItem", "type": "list", "required": false}], "formColumns": [{"column_type": "field", "field": "idOrdenProd", "label": "idOrdenProd", "type": "str", "required": true, "defaultValue": null}, {"column_type": "field", "field": "fechaCreacion", "label": "fechaCreacion", "type": "date", "required": true, "defaultValue": null}, {"column_type": "field", "field": "fechaEntrega", "label": "fechaEntrega", "type": "date", "required": true, "defaultValue": null}, {"column_type": "field", "field": "estado", "label": "estado", "type": "enum", "required": true, "defaultValue": null, "options": ["Cancelada", "EnProceso", "Finalizada", "Pendiente"]}, {"column_type": "lookup", "path": "cliente", "field": "cliente", "lookup_field": "email", "target_field": "id", "entity": "Cliente", "type": "str", "required": true}, {"column_type": "lookup", "path": "ordenItems", "field": "ordenItems", "lookup_field": "idItem", "target_field": "id", "entity": "ItemOrdenDeProduccion", "type": "list", "required": false}]}} dataBinding={{"entity": "OrdenDeProduccion", "endpoint": "/ordendeproduccion/", "row_key_fields": ["id"]}} />
+      </main>
+    </div>    </div>
+  );
+};
+
+export default Ordendeproduccion;
